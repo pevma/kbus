@@ -22,3 +22,8 @@ The ``build-kernel.sh`` script will attempt building the kernel version you spec
 
 After the build is finished you should have the new kernel pkg (plus dbg,headers,firmware) in the  current folder.
 You can then install with a regular ``dpkg -i kernel_package`` command. After finished reboot to use the new kernel.
+
+
+Example usage: ::
+
+ ./build-kernel.sh 4.15.2
